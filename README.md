@@ -1,5 +1,5 @@
 # Biolite Vert
-Implementation of SCSS and HTML based on Figma design.
+SCSS and HTML implementation based on Figma design.
 
 ## Install and run the project
 <i> First install all dependencies: </i>
