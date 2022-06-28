@@ -43,7 +43,7 @@ body {
         padding: 8px 32px 0 32px;
     }
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 536px) {
         padding: 8px 16px 0 16px;
     }
 
@@ -67,7 +67,7 @@ body {
 
         & img {
 
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 536px) {
                 max-height: 16px;
             }
         }
@@ -83,7 +83,7 @@ body {
             font-size: 16px;
         }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 536px) {
             font-size: 12px;
             line-height: 18px;
         }
@@ -116,7 +116,11 @@ body {
         padding: 32px 32px 8px 32px;
     }
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 648px) {
+        gap: 22px;
+    }
+
+    @media screen and (max-width: 536px) {
         padding: 32px 16px 8px 16px;
         gap: 22px;
     }
@@ -150,7 +154,7 @@ body {
             gap: 22.9px;
         }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 648px) {
             flex-direction: column;
             align-items: center;
             gap: 8px;
@@ -168,7 +172,7 @@ body {
             gap: 8px;
         }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 648px) {
             padding: 0;
         }
 
@@ -181,21 +185,21 @@ body {
 
         &:nth-child(1) {
 
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 536px) {
                 order: 2;
             }
         }
 
         &:nth-child(2) {
 
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 536px) {
                 order: 1;
             }
         }
 
         &:nth-child(3) {
 
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 536px) {
                 order: 3;
             }
         }
@@ -208,7 +212,7 @@ body {
         line-height: 24px;
         color: #FFFFFF;  
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 536px) {
             font-size: 14px;
         }
     }
@@ -228,7 +232,7 @@ body {
             margin-top: 31px;
         }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 536px) {
             margin-top: 29px;
         }
     }
@@ -239,8 +243,9 @@ body {
         display: flex;
         justify-content: space-between;
         box-sizing: border-box;
+        align-items: center;
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 536px) {
             flex-direction: column-reverse;
             align-items: center;
             padding-top: 0;
@@ -259,7 +264,7 @@ body {
             line-height: 18px;
         }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 536px) {
             text-align: center;
             font-size: 10px;
             line-height: 18px;
@@ -275,7 +280,7 @@ body {
             gap: 16px;
         }
 
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 536px) {
             gap: 12px;
         }
 
