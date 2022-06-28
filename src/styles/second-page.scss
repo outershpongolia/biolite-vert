@@ -23,7 +23,7 @@
             padding: 48px 0;
         }
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 536px) {
             padding: 24px 0;
         }
     }
@@ -45,7 +45,7 @@
             line-height: 39px;
         }
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 536px) {
             font-size: 24px;
             line-height: 29px;
         }
@@ -58,21 +58,22 @@
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1149px) {
         padding: 73px 40px 49px 40px;
         justify-content: space-between;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 772px) {
         padding: 56px 32px 40px 32px;
-    }
-
-    @media screen and (max-width: 420px) {
-        padding: 48px 16px 32px 16px;
         flex-direction: column;
         align-items: flex-start;
         gap: 17px;
     }
+
+    @media screen and (max-width: 536px) {
+        padding: 48px 16px 32px 16px;
+    }
+
 
     &__data {
         width: 291px;
@@ -80,6 +81,14 @@
         justify-content: flex-start;
         align-items: center;
         gap: 16px;
+
+        @media screen and (max-width: 984px) {
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 772px) {
+            justify-content: flex-start;
+        }
     }
 
     &__data-text {
@@ -87,7 +96,7 @@
         flex-direction: column;
         gap: 4px;
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 536px) {
             gap: 2px;
         }
     }
@@ -106,7 +115,7 @@
         font-weight: 400;
         color: #1D201C;
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 536px) {
             font-size: 14px;
         }
     }
@@ -127,7 +136,7 @@
 .main-title {
     text-align: center;
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 536px) {
         padding: 0 16px;
     }
 
@@ -143,7 +152,7 @@
             line-height: 29px;
         }
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 536px) {
             font-size: 20px;
             line-height: 24px;
         }
@@ -161,7 +170,7 @@
             line-height: 22px;
         }
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 536px) {
             font-size: 14px;
             line-height: 17px;
         }
@@ -172,7 +181,7 @@
     padding: 32px 165px 98px 165px;
     box-sizing: border-box;
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1149px) {
         padding: 32px 40px 100px 40px;
     }
 
@@ -180,7 +189,7 @@
         padding: 24px 32px 72px 32px;
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 536px) {
         padding: 32px 16px 72px 16px;
     }
 
@@ -196,8 +205,9 @@
             padding: 16px;
         }
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 670px) {
             flex-direction: column-reverse;
+            align-items: center;
             gap: 40px;
         }
     }
@@ -205,7 +215,11 @@
     &__map {
         max-width: 48%;
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 670px) {
+            max-width: 90%;
+        }
+
+        @media screen and (max-width: 536px) {
             max-width: 100%;
         }
     }
@@ -225,10 +239,14 @@
             padding: 16px 16px 52px 16px;
         }
 
-        @media screen and (max-width: 420px) {
-            max-width: 100%;
+        @media screen and (max-width: 670px) {
+            max-width: 90%;
             padding: 0;
             gap: 8px;
+        }
+
+        @media screen and (max-width: 536px) {
+            max-width: 100%;
         }
     }
 
@@ -247,7 +265,7 @@
         line-height: 28px;
         color: #B3B3B3;
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 670px) {
             font-size: 14px;
             line-height: 24px;
         }
@@ -284,7 +302,7 @@
         margin-top: 48px;
         max-height: 56px;
 
-        @media screen and (max-width: 420px) {
+        @media screen and (max-width: 670px) {
             max-width: 96px;
             max-height: 40px;
             padding: 8px 24px;
