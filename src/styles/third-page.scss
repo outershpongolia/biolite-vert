@@ -1,6 +1,6 @@
 .advert {
     height: 650px;
-    background: url("/dist/images/background.png");
+    background: url("/dist/images/background-opt.webp");
     background-repeat:no-repeat;
     background-position: center center;
 
@@ -231,30 +231,21 @@
 
     &__content-card-image {
         max-width: 445px;
+        height: auto;
 
         @media screen and (max-width: 1024px) {
             max-width: 396px;
+            height: auto;
         }
 
         @media screen and (max-width: 846px) {
-            max-width: 360px;
-            align-self: center;
-        }
-
-        @media screen and (max-width: 816px) {
-            width: 267px;
-            height: 294px;
-            align-self: auto;
-        }
-
-        @media screen and (max-width: 688px) {
-            width: 253px;
-            height: 320px;
+            max-width: 267px;
+            height: auto;
         }
 
         @media screen and (max-width: 536px) {
-            width: 288px;
-            height: 266px;
+            max-width: 288px;
+            height: auto;
         }
     }
 
@@ -342,7 +333,7 @@
 
         @media screen and (max-width: 536px) {
             font-size: 14px;
-            line-height: 24px;
+            line-height: 18px;
         }
     }
 
