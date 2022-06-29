@@ -139,6 +139,11 @@ body {
         font-size: 12px;
         line-height: 15px;
         color: #1D201C;
+
+        &:hover {
+            text-decoration: underline 2px #67CD45;
+            text-underline-offset: 4px;
+        }
     }
 }
 
