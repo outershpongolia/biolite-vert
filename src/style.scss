@@ -22,6 +22,7 @@ body {
     padding: 17px 11.5% 0 11.5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: transparent;
     z-index: 9999;
 
@@ -31,11 +32,6 @@ body {
     }
 
     @media screen and (max-width: 1149px) {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    @media screen and (max-width: 1024px) {
         padding: 8px 40px 0 40px;
     }
 
@@ -65,11 +61,15 @@ body {
         align-items: center;
         gap: 6px;
 
-        & img {
+        @media screen and (max-width: 420px) {
+            gap: 4px;   
+        }
+    }
 
-            @media screen and (max-width: 536px) {
-                max-height: 16px;
-            }
+    &__cart-svg {
+
+        @media screen and (max-width: 536px) {
+            max-height: 16px;
         }
     }
 
@@ -87,6 +87,58 @@ body {
             font-size: 12px;
             line-height: 18px;
         }
+    }
+
+    &__menu {
+        cursor: pointer;
+        max-height: 20px;
+        margin-left: 12px;
+        display: none;
+
+        @media screen and (max-width: 420px) {
+            display: block; 
+        }
+    }
+}
+
+.menu-opened {
+    position: fixed;
+    height: 546px;
+    width: 0;
+    background-color: #FFFFFF;
+    top: 0;
+    right:0;
+    z-index: 9999;
+    overflow: hidden;
+    transition: .1s;
+
+    &.active {
+        width: 157px;
+        padding: 46px 16px 0 16px;
+    }
+
+    &__icon {
+        cursor: pointer;
+        position: absolute;
+        top: 19px;
+        right: 16px;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__list-item {
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #1D201C;
     }
 }
 
